@@ -1,0 +1,16 @@
+{
+    "parent": "combatsystem:hit/root",
+    "criteria": {
+        "a": {
+            "trigger": "minecraft:shot_crossbow",
+            "conditions": {
+                "item": {
+                    "nbt": "{ChargedProjectiles:[{id:\"air\",Count:1b},{},{}]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "combatsystem:combatsystem/hit/melee/hit_by_entity"
+    }
+}

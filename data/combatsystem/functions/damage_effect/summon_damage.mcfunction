@@ -7,7 +7,7 @@
 summon armor_stand ~ ~ ~ {Silent:1b,Invulnerable:1b,Small:1b,Invisible:1b,Tags:["CS.DamageEffect","tmp"]}
 scoreboard players set #CH.Random.Min CH.Buffer -200
 scoreboard players set #CH.Random.Range CH.Buffer 400
-execute as @e[tag=CS.DamageEffect,tag=tmp] at @s run function test:random_motion
+execute as @e[tag=CS.DamageEffect,tag=tmp] at @s run function combatsystem:damage_effect/random_motion
 
 execute store result score #CS.DamageEffect.Value CH.Buffer run data get storage cs:control_buffer Data.Damage.Value 1
 data modify block -30000000 1 43885 Text1 set value '{"score":{"name":"#CS.DamageEffect.Value","objective":"CH.Buffer"}}'
