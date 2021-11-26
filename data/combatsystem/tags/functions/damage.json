@@ -1,6 +1,6 @@
 {
     "values": [
-        "test:tell_taken_damage",
-        "test:summon_damage"
+        "combatsystem:damage_effect/summon_damage",
+        "test:tell_taken_damage"
     ]
 }

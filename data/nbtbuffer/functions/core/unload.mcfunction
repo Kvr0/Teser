@@ -4,6 +4,6 @@
 #   Unload "NBTBuffer"
 #
 
-forceload remove -1875000 2741 -1875000 2741
+forceload remove -30000000 43885 -30000000 43885
 
 tellraw @a {"text":"[NB]:Unload"}
