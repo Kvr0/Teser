@@ -1,0 +1,52 @@
+{
+    "parent": "right_click_detect:shot_crossbow/root",
+    "criteria": {
+        "a": {
+            "trigger": "minecraft:shot_crossbow",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:alternative",
+                        "terms": [
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "equipment": {
+                                        "mainhand": {
+                                            "items": [
+                                                "minecraft:crossbow"
+                                            ]
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:inverted",
+                                "term": {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "equipment": {
+                                            "offhand": {
+                                                "items": [
+                                                    "minecraft:crossbow"
+                                                ]
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "item": {
+                    "nbt": "{ChargedProjectiles:[{id:\"minecraft:air\",Count:1b},{},{}]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "right_click_detect:right_click_detect/right_click_mainhand"
+    }
+}

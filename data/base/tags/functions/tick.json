@@ -3,7 +3,7 @@
         "calculationhelp:timer/tick",
         "datastorage:core/tick",
         "combatsystem:core/tick",
-        "status_card:core/tick",
-        "test:tick"
+        "right_click_detect:core/tick",
+        "status_card:core/tick"
     ]
 }
