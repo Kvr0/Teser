@@ -1,0 +1,5 @@
+#
+#   Prefix:RCD
+#
+#   Init "RightClickDetect"
+#
