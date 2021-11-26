@@ -1,0 +1,8 @@
+{
+    "values": [
+        "calculationhelp:timer/tick",
+        "datastorage:core/tick",
+        "combatsystem:core/tick",
+        "test:tick"
+    ]
+}

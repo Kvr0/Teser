@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#nntag:air",
+    "minecraft:barrier",
+    "minecraft:moving_piston",
+    "minecraft:structure_void"
+  ]
+}

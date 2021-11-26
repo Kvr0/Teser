@@ -1,0 +1,18 @@
+{
+    "parent": "combatsystem:hit/root",
+    "criteria": {
+        "":{
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type": {
+                      "is_projectile": false
+                    }
+                }
+            }   
+        }
+    },
+    "rewards": {
+        "function": "combatsystem:combatsystem/hit/melee/hit_by_player"
+    }
+}

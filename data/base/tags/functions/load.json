@@ -1,0 +1,7 @@
+{
+    "values": [
+        "calculationhelp:core/load",
+        "datastorage:core/load",
+        "combatsystem:core/load"
+    ]
+}

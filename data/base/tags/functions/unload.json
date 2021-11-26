@@ -1,0 +1,7 @@
+{
+    "values": [
+        "calculationhelp:core/unload",
+        "datastorage:core/unload",
+        "combatsystem:core/unload"
+    ]
+}

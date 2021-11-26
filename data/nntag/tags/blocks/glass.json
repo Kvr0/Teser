@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#nntag:glass_panes",
+
+    "#minecraft:impermeable"
+  ]
+}

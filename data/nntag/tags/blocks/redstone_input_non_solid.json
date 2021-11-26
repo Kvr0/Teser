@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:buttons",
+    "#minecraft:pressure_plates",
+    "minecraft:detector_rail",
+    "minecraft:tripwire_hook",
+    "minecraft:lever"
+  ]
+}

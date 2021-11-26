@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "#nntag:grass",
+    "#nntag:fungi_small",
+
+    "#minecraft:saplings",
+    "#minecraft:flower_pots",
+    "#minecraft:flowers",
+    "#minecraft:bamboo_plantable_on",
+    "#minecraft:crops",
+
+    "minecraft:dead_bush",
+    "minecraft:sweet_berry_bush",
+    "minecraft:sea_pickle",
+    "minecraft:vine",
+    "minecraft:cocoa",
+    "minecraft:crimson_roots",
+    "minecraft:warped_roots",
+    "minecraft:nether_sprouts",
+    "minecraft:weeping_vines",
+    "minecraft:weeping_vines_plant",
+    "minecraft:twisting_vines",
+    "minecraft:twisting_vines_plant",
+    "minecraft:sugar_cane",
+    "minecraft:lily_pad"
+  ]
+}

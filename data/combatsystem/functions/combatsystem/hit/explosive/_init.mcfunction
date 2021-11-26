@@ -1,0 +1,5 @@
+#
+#   Prefix:CS
+#
+#   Init "Explosive"
+#
