@@ -1,5 +1,0 @@
-#
-#   Prefix:CS
-#
-#   Init "CombatSystem"
-#

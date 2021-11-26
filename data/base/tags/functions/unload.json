@@ -3,6 +3,7 @@
         "calculationhelp:core/unload",
         "datastorage:core/unload",
         "nbtbuffer:core/unload",
-        "combatsystem:core/unload"
+        "combatsystem:core/unload",
+        "status_card:core/unload"
     ]
 }

@@ -3,6 +3,7 @@
         "calculationhelp:core/load",
         "datastorage:core/load",
         "nbtbuffer:core/load",
-        "combatsystem:core/load"
+        "combatsystem:core/load",
+        "status_card:core/load"
     ]
 }
