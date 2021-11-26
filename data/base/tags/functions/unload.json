@@ -5,6 +5,7 @@
         "nbtbuffer:core/unload",
         "combatsystem:core/unload",
         "status_card:core/unload",
-        "copy_entity:core/unload"
+        "copy_entity:core/unload",
+        "copy_block:core/unload"
     ]
 }
