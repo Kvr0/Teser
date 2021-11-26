@@ -4,6 +4,7 @@
 #   RightClick Mainhand
 #
 
+data modify storage rcd:itemdata Data.ItemData set value {}
 data modify storage rcd:itemdata Data.OffHand set value 0b
 data modify storage rcd:itemdata Data.ItemData set from entity @s SelectedItem.tag.ItemData
 function #right_click_detect:right_clicked
