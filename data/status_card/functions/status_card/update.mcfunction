@@ -4,7 +4,7 @@
 #   Update Status Card
 #
 
-execute store result score #SC.Offhand CH.Buffer run data get storage rcd:itemdata Data.Offhand 1
+execute store result score #SC.Offhand CH.Buffer run data get storage rcd:itemdata Data.OffHand 1
 execute if score #SC.Offhand CH.Buffer matches 1 run item replace block -30000000 0 43885 container.0 from entity @s weapon.offhand
 execute if score #SC.Offhand CH.Buffer matches 0 run item replace block -30000000 0 43885 container.0 from entity @s weapon.mainhand
 
