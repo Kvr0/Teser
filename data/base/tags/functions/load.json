@@ -2,6 +2,7 @@
     "values": [
         "calculationhelp:core/load",
         "datastorage:core/load",
+        "nbtbuffer:core/load",
         "combatsystem:core/load"
     ]
 }

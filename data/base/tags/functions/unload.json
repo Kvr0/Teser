@@ -2,6 +2,7 @@
     "values": [
         "calculationhelp:core/unload",
         "datastorage:core/unload",
+        "nbtbuffer:core/unload",
         "combatsystem:core/unload"
     ]
 }
