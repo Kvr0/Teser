@@ -10,6 +10,8 @@ function calculationhelp:timer/_unload
 function calculationhelp:distance/_unload
 # Score To Motion
 function calculationhelp:score_to_motion/_unload
+# Target TP
+function calculationhelp:target_tp/_unload
 
 scoreboard objectives remove CH.LoadFlag
 scoreboard objectives remove CH.Result

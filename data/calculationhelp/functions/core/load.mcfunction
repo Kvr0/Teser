@@ -23,5 +23,7 @@ function calculationhelp:random/_init
 function calculationhelp:timer/_init
 # Score To Motion
 function calculationhelp:score_to_motion/_init
+# Target TP
+function calculationhelp:target_tp/_init
 
 tellraw @a {"text":"[CH]:Load"}

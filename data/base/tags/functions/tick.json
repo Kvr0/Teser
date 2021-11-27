@@ -1,6 +1,6 @@
 {
     "values": [
-        "calculationhelp:timer/tick",
+        "calculationhelp:core/tick",
         "datastorage:core/tick",
         "combatsystem:core/tick",
         "right_click_detect:core/tick",
