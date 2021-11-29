@@ -4,6 +4,7 @@
         "datastorage:core/tick",
         "combatsystem:core/tick",
         "right_click_detect:core/tick",
+        "blockentity:core/tick",
         "status_card:core/tick"
         ]
 }

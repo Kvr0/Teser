@@ -5,4 +5,4 @@
 #
 
 scoreboard objectives add CH.TargetTP.ID dummy
-scoreboard players set #CH.TargetTP.RecentID CH.TargetTP.ID -1
+#scoreboard players set #CH.TargetTP.RecentID CH.TargetTP.ID -1
