@@ -4,4 +4,4 @@
 #   Reload "MusicSystem"
 #
 
-function musicsystem:musicsystem/reset_buffer
+function musicsystem:core/init

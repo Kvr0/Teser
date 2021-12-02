@@ -4,4 +4,4 @@
 #   Reset FullScore Buffer
 #
 
-data modify storage ms:musicdata Data.FullScoreBuffer set value {Scores:[],Num:0}
+data modify storage ms:musicdata Data.FullScoreBuffer set value {Scores:[]}
