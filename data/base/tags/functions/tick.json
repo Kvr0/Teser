@@ -5,6 +5,7 @@
         "combatsystem:core/tick",
         "right_click_detect:core/tick",
         "blockentity:core/tick",
+        "musicsystem:core/tick",
         "status_card:core/tick"
         ]
 }

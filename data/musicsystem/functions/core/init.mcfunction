@@ -4,4 +4,9 @@
 #   Init "MusicSystem"
 #
 
-data merge storage ms:musicdata {Data:{MusicData:[],NoteData:{Note:0,Duration:0},MusicBuffer:[]}}
+scoreboard objectives add MS.Timer dummy
+scoreboard objectives add MS.Instruments dummy
+scoreboard objectives add MS.Pitch dummy
+scoreboard objectives add MS.Duration dummy
+
+function musicsystem:musicsystem/reset_buffer
