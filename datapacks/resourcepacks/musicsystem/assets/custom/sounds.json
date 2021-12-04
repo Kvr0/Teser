@@ -1,0 +1,242 @@
+{
+    "bass0": {
+        "sounds": [
+            "custom:bass/bass0"
+        ]
+    },
+    "bass1": {
+        "sounds": [
+            "custom:bass/bass1"
+        ]
+    },
+    "bass2": {
+        "sounds": [
+            "custom:bass/bass2"
+        ]
+    },
+    "snare0": {
+        "sounds": [
+            "custom:snare/snare0"
+        ]
+    },
+    "snare1": {
+        "sounds": [
+            "custom:snare/snare1"
+        ]
+    },
+    "snare2": {
+        "sounds": [
+            "custom:snare/snare2"
+        ]
+    },
+    "hat0": {
+        "sounds": [
+            "custom:hat/hat0"
+        ]
+    },
+    "hat1": {
+        "sounds": [
+            "custom:hat/hat1"
+        ]
+    },
+    "hat2": {
+        "sounds": [
+            "custom:hat/hat2"
+        ]
+    },
+    "bassdrum0": {
+        "sounds": [
+            "custom:bassdrum/bassdrum0"
+        ]
+    },
+    "bassdrum1": {
+        "sounds": [
+            "custom:bassdrum/bassdrum1"
+        ]
+    },
+    "bassdrum2": {
+        "sounds": [
+            "custom:bassdrum/bassdrum2"
+        ]
+    },
+    "bell0": {
+        "sounds": [
+            "custom:bell/bell0"
+        ]
+    },
+    "bell1": {
+        "sounds": [
+            "custom:bell/bell1"
+        ]
+    },
+    "bell2": {
+        "sounds": [
+            "custom:bell/bell2"
+        ]
+    },
+    "flute0": {
+        "sounds": [
+            "custom:flute/flute0"
+        ]
+    },
+    "flute1": {
+        "sounds": [
+            "custom:flute/flute1"
+        ]
+    },
+    "flute2": {
+        "sounds": [
+            "custom:flute/flute2"
+        ]
+    },
+    "chime0": {
+        "sounds": [
+            "custom:chime/chime0"
+        ]
+    },
+    "chime1": {
+        "sounds": [
+            "custom:chime/chime1"
+        ]
+    },
+    "chime2": {
+        "sounds": [
+            "custom:chime/chime2"
+        ]
+    },
+    "guitar0": {
+        "sounds": [
+            "custom:guitar/guitar0"
+        ]
+    },
+    "guitar1": {
+        "sounds": [
+            "custom:guitar/guitar1"
+        ]
+    },
+    "guitar2": {
+        "sounds": [
+            "custom:guitar/guitar2"
+        ]
+    },
+    "xylophone0": {
+        "sounds": [
+            "custom:xylophone/xylophone0"
+        ]
+    },
+    "xylophone1": {
+        "sounds": [
+            "custom:xylophone/xylophone1"
+        ]
+    },
+    "xylophone2": {
+        "sounds": [
+            "custom:xylophone/xylophone2"
+        ]
+    },
+    "iron_xylophone0": {
+        "sounds": [
+            "custom:iron_xylophone/iron_xylophone0"
+        ]
+    },
+    "iron_xylophone1": {
+        "sounds": [
+            "custom:iron_xylophone/iron_xylophone1"
+        ]
+    },
+    "iron_xylophone2": {
+        "sounds": [
+            "custom:iron_xylophone/iron_xylophone2"
+        ]
+    },
+    "cow_bell0": {
+        "sounds": [
+            "custom:cow_bell/cow_bell0"
+        ]
+    },
+    "cow_bell1": {
+        "sounds": [
+            "custom:cow_bell/cow_bell1"
+        ]
+    },
+    "cow_bell2": {
+        "sounds": [
+            "custom:cow_bell/cow_bell2"
+        ]
+    },
+    "didgeridoo0": {
+        "sounds": [
+            "custom:didgeridoo/didgeridoo0"
+        ]
+    },
+    "didgeridoo1": {
+        "sounds": [
+            "custom:didgeridoo/didgeridoo1"
+        ]
+    },
+    "didgeridoo2": {
+        "sounds": [
+            "custom:didgeridoo/didgeridoo2"
+        ]
+    },
+    "bit0": {
+        "sounds": [
+            "custom:bit/bit0"
+        ]
+    },
+    "bit1": {
+        "sounds": [
+            "custom:bit/bit1"
+        ]
+    },
+    "bit2": {
+        "sounds": [
+            "custom:bit/bit2"
+        ]
+    },
+    "banjo0": {
+        "sounds": [
+            "custom:banjo/banjo0"
+        ]
+    },
+    "banjo1": {
+        "sounds": [
+            "custom:banjo/banjo1"
+        ]
+    },
+    "banjo2": {
+        "sounds": [
+            "custom:banjo/banjo2"
+        ]
+    },
+    "pling0": {
+        "sounds": [
+            "custom:pling/pling0"
+        ]
+    },
+    "pling1": {
+        "sounds": [
+            "custom:pling/pling1"
+        ]
+    },
+    "pling2": {
+        "sounds": [
+            "custom:pling/pling2"
+        ]
+    },
+    "harp0": {
+        "sounds": [
+            "custom:harp/harp0"
+        ]
+    },
+    "harp1": {
+        "sounds": [
+            "custom:harp/harp1"
+        ]
+    },
+    "harp2": {
+        "sounds": [
+            "custom:harp/harp2"
+        ]
+    }
+}
