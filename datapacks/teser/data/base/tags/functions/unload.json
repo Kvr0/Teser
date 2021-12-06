@@ -6,6 +6,7 @@
         "combatsystem:core/unload",
         "status_card:core/unload",
         "copy_entity:core/unload",
-        "copy_block:core/unload"
+        "copy_block:core/unload",
+        "item_stack:core/unload"
     ]
 }

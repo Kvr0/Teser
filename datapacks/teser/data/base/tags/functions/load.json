@@ -6,6 +6,7 @@
         "combatsystem:core/load",
         "status_card:core/load",
         "copy_entity:core/load",
-        "copy_block:core/load"
+        "copy_block:core/load",
+        "item_stack:core/load"
     ]
 }

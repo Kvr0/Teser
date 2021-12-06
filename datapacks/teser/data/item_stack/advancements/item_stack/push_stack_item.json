@@ -1,0 +1,44 @@
+{
+  "parent": "item_stack:item_stack/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "mainhand": {
+                    "items": [
+                      "minecraft:air"
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "flags": {
+                  "is_sneaking": true
+                }
+              }
+          }
+        ],
+        "entity": {
+          "type": "minecraft:villager",
+          "nbt": "{Tags:[IS.Stack.Stack]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "item_stack:push_stack_item"
+  }
+}
