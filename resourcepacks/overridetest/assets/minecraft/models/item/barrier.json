@@ -4,6 +4,10 @@
     "layer0": "minecraft:item/barrier"
   },
   "overrides": [
-    { "predicate": { "custom_model_data": 1 }, "model": "minecraft:item/air" }
+    { "predicate": { "custom_model_data": 1 }, "model": "minecraft:item/air" },
+    { "predicate": { "custom_model_data": 2 }, "model": "item/fakestone" },
+    { "predicate": { "custom_model_data": 3 }, "model": "item/wheel_test0" },
+    { "predicate": { "custom_model_data": 4 }, "model": "gui/lower_section" },
+    { "predicate": { "custom_model_data": 5 }, "model": "gui/upper_section" }
   ]
 }
