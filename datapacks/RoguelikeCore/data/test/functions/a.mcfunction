@@ -1,0 +1,2 @@
+
+tellraw @s "location check"

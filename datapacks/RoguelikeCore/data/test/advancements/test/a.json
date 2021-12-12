@@ -1,0 +1,12 @@
+{
+    "parent": "test:test/root",
+    "criteria": {
+      "a": {
+        "trigger": "minecraft:location"
+      }
+    },
+    "rewards": {
+      "function": "test:a"
+    }
+  }
+  
