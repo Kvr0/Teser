@@ -1,0 +1,46 @@
+[
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "name": "",
+          "amount": {
+            "type": "minecraft:score",
+            "target": "this",
+            "score": "CS.Status.AttackSpeed",
+            "scale": 0.01
+          },
+          "operation": "addition",
+          "slot": [
+            "mainhand",
+            "offhand",
+            "head",
+            "chest",
+            "legs",
+            "feet"
+          ]
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "name": "",
+          "amount": {
+            "type": "minecraft:score",
+            "target": "this",
+            "score": "CS.Status.MovementSpeed",
+            "scale": 0.01
+          },
+          "operation": "addition",
+          "slot": [
+            "mainhand",
+            "offhand",
+            "head",
+            "chest",
+            "legs",
+            "feet"
+          ]
+        }
+      ]
+    }
+  ]
+  

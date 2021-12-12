@@ -1,0 +1,78 @@
+[
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{HideFlags:103,AttributeModifiers:[]}"
+    },
+    {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_damage",
+                "name": "",
+                "amount": -1,
+                "operation": "addition",
+                "slot": "mainhand"
+            },
+            {
+                "attribute": "minecraft:generic.attack_damage",
+                "name": "",
+                "amount": {
+                    "type": "minecraft:score",
+                    "target": "this",
+                    "score": "CS.attack_damage",
+                    "scale": 1
+                },
+                "operation": "addition",
+                "slot": "mainhand"
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_knockback",
+                "name": "",
+                "amount": -1,
+                "operation": "addition",
+                "slot": "mainhand"
+            },
+            {
+                "attribute": "minecraft:generic.attack_knockback",
+                "name": "",
+                "amount": {
+                    "type": "minecraft:score",
+                    "target": "this",
+                    "score": "CS.attack_knockback",
+                    "scale": 1
+                },
+                "operation": "addition",
+                "slot": "mainhand"
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "name": "",
+                "amount": -1,
+                "operation": "addition",
+                "slot": "mainhand"
+            },
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "name": "",
+                "amount": {
+                    "type": "minecraft:score",
+                    "target": "this",
+                    "score": "CS.attack_speed",
+                    "scale": 1
+                },
+                "operation": "addition",
+                "slot": "mainhand"
+            }
+        ]
+    }
+]

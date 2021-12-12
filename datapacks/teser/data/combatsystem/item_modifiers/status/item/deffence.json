@@ -1,0 +1,65 @@
+[
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "name": "",
+          "amount": {
+            "type": "minecraft:score",
+            "target": "this",
+            "score": "CS.Status.Armor",
+            "scale": 0.01
+          },
+          "operation": "addition",
+          "slot": [
+            "mainhand",
+            "offhand",
+            "head",
+            "chest",
+            "legs",
+            "feet"
+          ]
+        },
+        {
+          "attribute": "minecraft:generic.armor_toughness",
+          "name": "",
+          "amount": {
+            "type": "minecraft:score",
+            "target": "this",
+            "score": "CS.Status.ArmorThoughness",
+            "scale": 0.01
+          },
+          "operation": "addition",
+          "slot": [
+            "mainhand",
+            "offhand",
+            "head",
+            "chest",
+            "legs",
+            "feet"
+          ]
+        },
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "name": "",
+          "amount": {
+            "type": "minecraft:score",
+            "target": "this",
+            "score": "CS.Status.KnockbackRegistance",
+            "scale": 0.01
+          },
+          "operation": "addition",
+          "slot": [
+            "mainhand",
+            "offhand",
+            "head",
+            "chest",
+            "legs",
+            "feet"
+          ]
+        }
+      ]
+    }
+  ]
+  

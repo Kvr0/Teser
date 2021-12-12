@@ -1,0 +1,105 @@
+[
+    {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_damage",
+                "name": "",
+                "amount": -1,
+                "operation": "multiply_base",
+                "slot": [
+                    "mainhand",
+                    "offhand",
+                    "head",
+                    "chest",
+                    "legs",
+                    "feet"
+                ]
+            },
+            {
+                "attribute": "minecraft:generic.attack_knockback",
+                "name": "",
+                "amount": -1,
+                "operation": "multiply_base",
+                "slot": [
+                    "mainhand",
+                    "offhand",
+                    "head",
+                    "chest",
+                    "legs",
+                    "feet"
+                ]
+            },
+            {
+                "attribute": "minecraft:generic.armor",
+                "name": "",
+                "amount": -1,
+                "operation": "multiply_base",
+                "slot": [
+                    "mainhand",
+                    "offhand",
+                    "head",
+                    "chest",
+                    "legs",
+                    "feet"
+                ]
+            },
+            {
+                "attribute": "minecraft:generic.armor_toughness",
+                "name": "",
+                "amount": -1,
+                "operation": "multiply_base",
+                "slot": [
+                    "mainhand",
+                    "offhand",
+                    "head",
+                    "chest",
+                    "legs",
+                    "feet"
+                ]
+            },
+            {
+                "attribute": "minecraft:generic.knockback_resistance",
+                "name": "",
+                "amount": -1,
+                "operation": "multiply_base",
+                "slot": [
+                    "mainhand",
+                    "offhand",
+                    "head",
+                    "chest",
+                    "legs",
+                    "feet"
+                ]
+            },
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "name": "",
+                "amount": -1,
+                "operation": "multiply_base",
+                "slot": [
+                    "mainhand",
+                    "offhand",
+                    "head",
+                    "chest",
+                    "legs",
+                    "feet"
+                ]
+            },
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "name": "",
+                "amount": -1,
+                "operation": "multiply_base",
+                "slot": [
+                    "mainhand",
+                    "offhand",
+                    "head",
+                    "chest",
+                    "legs",
+                    "feet"
+                ]
+            }
+        ]
+    }
+]

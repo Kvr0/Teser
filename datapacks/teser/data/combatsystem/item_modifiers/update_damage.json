@@ -1,0 +1,42 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{HideFlags:39,AttributeModifiers:[]}"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "name": "",
+        "amount": -1,
+        "operation": "addition",
+        "slot": "mainhand"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "name": "",
+        "amount": 0,
+        "operation": "multiply_base",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "name": "",
+        "amount": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "CH.Buffer",
+          "scale": 1
+        },
+        "operation": "addition",
+        "slot": "mainhand"
+      }
+    ]
+  }
+]
