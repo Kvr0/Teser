@@ -11,3 +11,5 @@ scoreboard objectives add EXPSYS.Lv dummy
 
 ## EXPSYS:Loadflag
 scoreboard players set EXPSYS CHELP.Loadflag 1
+
+tellraw @a "Load"

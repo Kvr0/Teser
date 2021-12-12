@@ -12,3 +12,4 @@ execute if score #EXPSYS.Check.LevelUp CHELP.Buffer matches 1 run scoreboard pla
 execute if score #EXPSYS.Check.LevelUp CHELP.Buffer matches 1 run scoreboard players operation @s EXPSYS.EXP -= @s EXPSYS.NextEXP
 execute if score #EXPSYS.Check.LevelUp CHELP.Buffer matches 1 run function expsys:set_nextexp
 execute if score #EXPSYS.Check.LevelUp CHELP.Buffer matches 1 run function #expsys:levelup
+execute if score @s EXPSYS.NextEXP < @s EXPSYS.EXP run tag @s add EXPSYS.NeedCheck

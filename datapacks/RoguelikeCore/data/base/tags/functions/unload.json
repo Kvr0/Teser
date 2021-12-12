@@ -2,6 +2,7 @@
     "values":[
         "chelp:unload",
         "dstorage:unload",
+        "expsys:unload",
         "gclock:unload",
         "status:unload"
     ]
