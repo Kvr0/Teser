@@ -2,6 +2,7 @@
 # DSTORAGE/player:get_with_id
 #
 
+function dstorage:clear_selectdata
 execute if score #DSTORAGE.PlayerID.Selected DSTORAGE.PlayerID matches 1 run data modify storage dstorage:selected data set from storage dstorage:playerdata data[0]
 execute if score #DSTORAGE.PlayerID.Selected DSTORAGE.PlayerID matches 2 run data modify storage dstorage:selected data set from storage dstorage:playerdata data[1]
 execute if score #DSTORAGE.PlayerID.Selected DSTORAGE.PlayerID matches 3 run data modify storage dstorage:selected data set from storage dstorage:playerdata data[2]

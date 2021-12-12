@@ -2,6 +2,9 @@
 # DSTORAGE:load
 #
 
+## DSTORAGE/entity
+function dstorage:entity/load
+
 ## DSTORAGE/player
 function dstorage:player/load
 

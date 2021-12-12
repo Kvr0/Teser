@@ -2,6 +2,9 @@
 # DSTORAGE:unload
 #
 
+## DSTORAGE/entity
+function dstorage:entity/unload
+
 ## DSTORAGE/player
 function dstorage:player/unload
 

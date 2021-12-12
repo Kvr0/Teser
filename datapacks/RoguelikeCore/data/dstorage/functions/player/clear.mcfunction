@@ -1,7 +1,6 @@
 #
-# DSTORAGE/player:clear
+# DSTORAGE/player:get
 #
 
-data modify storage dstorage:playerdata data set value []
-scoreboard players operation #DSTORAGE.PlayerID.tmp DSTORAGE.PlayerID = #DSTORAGE.PlayerID.Global DSTORAGE.PlayerID
-execute if score #DSTORAGE.PlayerID.tmp DSTORAGE.PlayerID matches 1.. run function dstorage:player/_clear
+scoreboard players operation #DSTORAGE.PlayerID.Selected DSTORAGE.PlayerID = @s DSTORAGE.PlayerID
+function dstorage:player/clear_with_id
