@@ -4,6 +4,7 @@
         "dstorage:tick",
         "expsys:tick",
         "gclock:tick",
+        "minv:tick",
         "status:tick"
     ]
 }

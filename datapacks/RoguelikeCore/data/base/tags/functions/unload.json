@@ -4,6 +4,7 @@
         "dstorage:unload",
         "expsys:unload",
         "gclock:unload",
+        "minv:unload",
         "status:unload"
     ]
 }

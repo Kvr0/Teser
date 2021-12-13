@@ -4,6 +4,7 @@
         "dstorage:load",
         "expsys:load",
         "gclock:load",
+        "minv:load",
         "status:load"
     ]
 }

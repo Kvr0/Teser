@@ -9,4 +9,4 @@ execute unless score DSTORAGE CHELP.Loadflag matches 1 run scoreboard players se
 ## DSTORAGE.PlayerID.Selected
 scoreboard players set #DSTORAGE.PlayerID.Selected DSTORAGE.PlayerID 0
 ## dstorage:playerdata
-data merge storage dstorage:playerdata {data:[]}
+execute unless score DSTORAGE CHELP.Loadflag matches 1 run data merge storage dstorage:playerdata {data:[]}
