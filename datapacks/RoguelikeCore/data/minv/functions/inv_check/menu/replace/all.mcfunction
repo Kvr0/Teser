@@ -3,8 +3,9 @@
 #
 
 function minv:inv_check/menu/replace/inv0
-function minv:inv_check/menu/replace/inv9
 function minv:inv_check/menu/replace/inv18
+function minv:inv_check/menu/replace/inv9
+
 function minv:inv_check/menu/replace/inv1
 function minv:inv_check/menu/replace/inv2
 function minv:inv_check/menu/replace/inv3

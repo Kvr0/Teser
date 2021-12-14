@@ -175,7 +175,4 @@ execute if score #MINV.InvCheck.Menu.isMINV CHELP.Buffer matches 0 run function 
 execute if score #MINV.InvCheck.Menu.Control CHELP.Buffer matches 1 run function minv:inv_check/menu/replace/all
 
 execute unless score #MINV.InvCheck.Menu.Control CHELP.Buffer matches 1 if score #MINV.InvCheck.Menu.Inv CHELP.Buffer <= @s MINV.Page.Max run function minv:inv_check/page/replace/
-execute unless score #MINV.InvCheck.Menu.Control CHELP.Buffer matches 1 if score #MINV.InvCheck.Menu.Inv CHELP.Buffer <= @s MINV.Page.Max run function minv:inv_check/page/
-
-## Delete MINV Item Entity
-kill @e[type=item,nbt={Item:{tag:{MINV:{isMINV:1b}}}}]
+#execute unless score #MINV.InvCheck.Menu.Control CHELP.Buffer matches 1 if score #MINV.InvCheck.Menu.Inv CHELP.Buffer <= @s MINV.Page.Max run function minv:inv_check/page/

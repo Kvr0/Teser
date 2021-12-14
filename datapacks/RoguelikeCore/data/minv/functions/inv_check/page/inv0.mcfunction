@@ -7,7 +7,7 @@ clear @s #minv:all_items{MINV:{isMINV:1b,Pos:0}}
 
 function minv:inv_check/page/store/
 scoreboard players remove @s MINV.Page.Number 1
-execute unless score @s MINV.Page.Number matches 0.. run scoreboard players set @s MINV.Page.Number 0
+execute unless score @s MINV.Page.Number matches 1.. run scoreboard players set @s MINV.Page.Number 1
 function minv:inv_check/page/replace/all
 
 playsound minecraft:ui.button.click master @s ~ ~ ~ 1 2

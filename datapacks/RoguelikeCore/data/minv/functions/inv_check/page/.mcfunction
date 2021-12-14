@@ -21,5 +21,3 @@ item replace block -30000000 0 43885 container.0 from entity @s inventory.18
 execute store result score #MINV.InvCheck.Page.Pos CHELP.Buffer run data get block -30000000 0 43885 Items[0].tag.MINV.Pos 1
 execute if data block -30000000 0 43885 Items[0].tag.MINV.isMINV if score #MINV.InvCheck.Page.Pos CHELP.Buffer matches 18 run scoreboard players set #MINV.InvCheck.Page.isMINV CHELP.Buffer 1
 execute if score #MINV.InvCheck.Page.isMINV CHELP.Buffer matches 0 run function minv:inv_check/page/inv18
-
-#scoreboard players set @s MINV.Type 0

@@ -3,8 +3,8 @@
 #
 
 function minv:inv_check/page/replace/inv0
-function minv:inv_check/page/replace/inv9
 function minv:inv_check/page/replace/inv18
+function minv:inv_check/page/replace/inv9
 
 execute if score @s MINV.Page.Number matches 1 run function minv:inv_check/page/replace/1
 execute if score @s MINV.Page.Number matches 2 run function minv:inv_check/page/replace/2

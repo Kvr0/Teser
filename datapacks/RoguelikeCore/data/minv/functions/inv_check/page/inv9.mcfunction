@@ -9,4 +9,3 @@ scoreboard players set @s MINV.Type 0
 function minv:inv_check/menu/replace/all
 
 playsound minecraft:ui.button.click master @s ~ ~ ~ 1 1
-
