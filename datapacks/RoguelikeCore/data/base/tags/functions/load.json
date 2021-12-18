@@ -5,6 +5,7 @@
         "expsys:load",
         "gclock:load",
         "minv:load",
+        "ms:load",
         "status:load"
     ]
 }

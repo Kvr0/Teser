@@ -5,6 +5,7 @@
         "expsys:tick",
         "gclock:tick",
         "minv:tick",
+        "ms:tick",
         "status:tick"
     ]
 }
