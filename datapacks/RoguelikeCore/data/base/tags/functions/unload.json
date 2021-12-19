@@ -2,6 +2,7 @@
     "values":[
         "chelp:unload",
         "dstorage:unload",
+        "partysys:load",
         "expsys:unload",
         "gclock:unload",
         "minv:unload",

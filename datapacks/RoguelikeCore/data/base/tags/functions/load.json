@@ -2,6 +2,7 @@
     "values":[
         "chelp:load",
         "dstorage:load",
+        "partysys:load",
         "expsys:load",
         "gclock:load",
         "minv:load",
