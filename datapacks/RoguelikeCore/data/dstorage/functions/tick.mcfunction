@@ -2,5 +2,5 @@
 # DSTORAGE:tick
 #
 
-## DSTORAGE/player
+## DSTORAGE.Player
 function dstorage:player/tick

@@ -2,11 +2,9 @@
 # EXPSYS:unload
 #
 
-## EXPSYS.NextEXP
+## Buffers
 scoreboard objectives remove EXPSYS.NextEXP
-## EXPSYS.EXP
 scoreboard objectives remove EXPSYS.EXP
-## EXPSYS.Lv
 scoreboard objectives remove EXPSYS.Lv
 
 ## EXPSYS:Loadflag

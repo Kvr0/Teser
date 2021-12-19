@@ -2,11 +2,11 @@
 # GCLOCK:load
 #
 
-## GCLOCK.Clock
+## Buffers
 scoreboard objectives add GCLOCK.Clock.Major dummy
 scoreboard objectives add GCLOCK.Clock.Minor dummy
 
-## GCLOCK.Global
+## Propaties
 execute unless score GCLOCK CHELP.Loadflag matches 1 run scoreboard players set #GCLOCK.Global GCLOCK.Clock.Major 0
 execute unless score GCLOCK CHELP.Loadflag matches 1 run scoreboard players set #GCLOCK.Global GCLOCK.Clock.Minor 0
 

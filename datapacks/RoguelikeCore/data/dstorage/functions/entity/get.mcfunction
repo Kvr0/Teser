@@ -1,5 +1,5 @@
 #
-# DSTORAGE/entity:get
+# DSTORAGE.Entity:get
 #
 
 execute if entity @s[tag=!DSTORAGE.Entity.Init] run function dstorage:entity/init_data

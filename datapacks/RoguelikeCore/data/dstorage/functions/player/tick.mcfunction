@@ -1,6 +1,6 @@
 #
-# DSTORAGE/player:tick
+# DSTORAGE.Player:tick
 #
 
-## DSTORAGE.PlayerID
-execute as @a[tag=!DSTORAGE.PlayerID.Have] run function dstorage:player/get_newid
+## PlayerID
+execute as @a[tag=!DSTORAGE.Player.ID.Have] run function dstorage:player/get_newid

@@ -2,14 +2,11 @@
 # DSTORAGE:load
 #
 
-## DSTORAGE/entity
-function dstorage:entity/load
-
-## DSTORAGE/player
-function dstorage:player/load
-
-## dstorage:selected
+## Buffers
 data merge storage dstorage:selected {data:{}}
 
-## DSTORAGE:Loadflag
+## DSTORAGE.Player
+function dstorage:player/load
+
+## Propaties
 scoreboard players set DSTORAGE CHELP.Loadflag 1

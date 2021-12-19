@@ -4,7 +4,7 @@
 
 ## Reset Buffer
 data modify block -30000000 0 43885 Items set value []
-data modify block -30000000 0 43885 Items set from storage minv:menu_data data.inventory
+#data modify block -30000000 0 43885 Items set from storage minv:menu_data data.inventory
 
 scoreboard players set #MINV.lib.SetInventory.0 CHELP.Buffer 0
 scoreboard players set #MINV.lib.SetInventory.1 CHELP.Buffer 0

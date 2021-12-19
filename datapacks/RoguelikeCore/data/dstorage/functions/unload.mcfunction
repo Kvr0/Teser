@@ -2,14 +2,13 @@
 # DSTORAGE:unload
 #
 
-## DSTORAGE/entity
-function dstorage:entity/unload
+## Propaties
+scoreboard players set DSTORAGE CHELP.Loadflag 0
 
-## DSTORAGE/player
+## DSTORAGE.Entity
+function dstorage:entity/unload
+## DSTORAGE.Player
 function dstorage:player/unload
 
-## dstorage:selected
+## Buffers
 data remove storage dstorage:selected data
-
-## DSTORAGE:Loadflag
-scoreboard players set DSTORAGE CHELP.Loadflag 0

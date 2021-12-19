@@ -1,10 +1,11 @@
 #
-# DSTORAGE/player:unload
+# DSTORAGE.Player:unload
 #
 
-## DSTORAGE.PlayerID
+## Buffers
 scoreboard objectives remove DSTORAGE.PlayerID
-## DSTORAGE.PlayerID.Have
-tag @e remove DSTORAGE.PlayerID.Have
-## dstorage:playerdata
 data remove storage dstorage:playerdata data
+
+## Tags
+### Entity
+tag @e remove DSTORAGE.Player.ID.Have

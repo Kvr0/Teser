@@ -1,5 +1,5 @@
 #
-# DSTORAGE/entity:unload
+# DSTORAGE.Entity:unload
 #
 
 ## DSTORAGE.Entity.Init

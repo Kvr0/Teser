@@ -2,7 +2,7 @@
 # GCLOCK:unload
 #
 
-## GCLOCK.Clock
+## Buffers
 scoreboard objectives remove GCLOCK.Clock.Major
 scoreboard objectives remove GCLOCK.Clock.Minor
 

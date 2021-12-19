@@ -2,11 +2,16 @@
 # CHELP:load
 #
 
-## CHELP.Loadflag
+## Buffers
 scoreboard objectives add CHELP.Loadflag dummy
-## CHELP.Buffer
 scoreboard objectives add CHELP.Buffer dummy
-## CHELP.Number
+
+## SubClass
+### 1.UUID
+function chelp:uuid/load
+
+## Propaties
+### #CHELP.Number.N (CHELP.Buffer, N=-100..100)
 scoreboard players set #CHELP.Number.-100 CHELP.Buffer -100
 scoreboard players set #CHELP.Number.-99 CHELP.Buffer -99
 scoreboard players set #CHELP.Number.-98 CHELP.Buffer -98
@@ -208,9 +213,9 @@ scoreboard players set #CHELP.Number.97 CHELP.Buffer 97
 scoreboard players set #CHELP.Number.98 CHELP.Buffer 98
 scoreboard players set #CHELP.Number.99 CHELP.Buffer 99
 scoreboard players set #CHELP.Number.100 CHELP.Buffer 100
-## CHELP.NBTBuffer
+### ContainerBuffer (-30000000 0 43885), TextBuffer (-30000000 1 43885)
 forceload add -30000000 43885 -30000000 43885
 setblock -30000000 0 43885 shulker_box replace
 setblock -30000000 1 43885 oak_sign replace
-## CHELP:Loadflag
+### CHELP (CHELP.Loadflag)
 scoreboard players set CHELP CHELP.Loadflag 1

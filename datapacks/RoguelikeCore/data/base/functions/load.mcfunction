@@ -2,8 +2,12 @@
 # BASE:load
 #
 
-## BASE.Loaded
+## Buffers
 scoreboard objectives add BASE.Loaded dummy
+
+## Load
 function #base:load
-execute unless score #Global BASE.Loaded matches 1 run scoreboard players set #Global BASE.Loaded 1
+
+## Propaties
+execute unless score Global BASE.Loaded matches 1 run scoreboard players set Global BASE.Loaded 1
 

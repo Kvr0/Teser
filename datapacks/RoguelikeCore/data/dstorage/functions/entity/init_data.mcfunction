@@ -1,5 +1,5 @@
 #
-# DSTORAGE/entity:init_data
+# DSTORAGE.Entity:init_data
 #
 
 execute store success score #DSTORAGE.Entity.HaveItem CHELP.Buffer run data get entity @s HandItems[1].id
