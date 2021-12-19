@@ -1,5 +1,5 @@
 #
-# MS:motion/calc
+# MS.Motion:calc
 #
 
 scoreboard players set #MS.Motion.Motion.X CHELP.Buffer 0

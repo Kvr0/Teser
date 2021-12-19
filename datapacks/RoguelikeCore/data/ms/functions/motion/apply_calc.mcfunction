@@ -1,5 +1,5 @@
 #
-# MS:motion/apply_calc
+# MS.Motion:apply_calc
 #
 
 function ms:motion/calc

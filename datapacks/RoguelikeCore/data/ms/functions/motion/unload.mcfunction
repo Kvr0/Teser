@@ -1,5 +1,5 @@
 #
-# MS:motion/unload
+# MS.Motion:unload
 #
 
 ## Scoreboards

@@ -1,5 +1,5 @@
 #
-# MS:motion/get_direction
+# MS.Motion:get_direction
 #
 
 summon armor_stand 0 0 0 {Tags:[MS.Motion.GetDirection.tmp]}

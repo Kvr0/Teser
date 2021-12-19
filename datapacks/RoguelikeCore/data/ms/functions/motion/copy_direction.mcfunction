@@ -1,5 +1,5 @@
 #
-# MS:motion/copy_direction
+# MS.Motion:copy_direction
 #
 
 scoreboard players operation @e[tag=MS.Motion.CopyTarget] MS.Motion.Dir.X = @s MS.Motion.Dir.X

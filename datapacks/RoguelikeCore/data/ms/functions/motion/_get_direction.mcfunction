@@ -1,5 +1,5 @@
 #
-# MS:motion/_get_direction
+# MS.Motion:_get_direction
 #
 
 execute store result score ##MS.Motion.GetDirection.X0 CHELP.Buffer run data get entity @s Pos[0] 1000

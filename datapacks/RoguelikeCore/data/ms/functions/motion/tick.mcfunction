@@ -1,5 +1,5 @@
 #
-# MS:motion/tick
+# MS.Motion:tick
 #
 
 execute as @e[tag=MS.Motion.Once] at @s run function ms:motion/apply_calc
