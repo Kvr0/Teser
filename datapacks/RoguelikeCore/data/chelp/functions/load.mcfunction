@@ -6,7 +6,6 @@
 scoreboard objectives add CHELP.Loadflag dummy
 scoreboard objectives add CHELP.Buffer dummy
 
-## SubClass
 ### 1.UUID
 function chelp:uuid/load
 
