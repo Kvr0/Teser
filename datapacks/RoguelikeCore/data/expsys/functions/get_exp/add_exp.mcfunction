@@ -8,4 +8,5 @@ execute store result score #EXPSYS.GetEXP.Count CHELP.Buffer run data get block 
 scoreboard players operation #EXPSYS.GetEXP.EXP CHELP.Buffer *= #EXPSYS.GetEXP.Count CHELP.Buffer
 execute unless score @s EXPSYS.EXP matches 0.. run scoreboard players set @s EXPSYS.EXP 0
 scoreboard players operation @s EXPSYS.EXP += #EXPSYS.GetEXP.EXP CHELP.Buffer
+function #expsys:get_exp
 function expsys:check
